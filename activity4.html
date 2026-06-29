@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h2>JavaScript objects and its properties</h2>
+     <p>There are two different ways to access an objects properties:</p>
+     
+     <p>you can use .properties or ['property']</p>
+     <p id="demo"></p>
+     <script>
+        // Create an object
+        var person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            eyeColor: "blue"
+        };
+        //Display some data from the object:
+        document.getElementById("demo").innerHTML = "My name is " + person.firstName + " " + person['lastName'] + ". I am " + person.age + " years old and my eye color is " + person.eyeColor + ".";
+     </script>
+</body>
+</html>
